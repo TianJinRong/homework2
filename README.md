@@ -81,7 +81,7 @@ structopt = "0.3.21"
 
 For a simple example of how to use `StructOpt` that you can start from, check out [the demo from lecture 1](https://github.com/upenn-cis198/lecture1/blob/master/demos/src/bin/structopt.rs).
 
-StructOpt should automatically generate an interface for you when you run `cargo run ... --help`.
+StructOpt should automatically generate an interface for you when you run `cargo run -- --help`.
 Here is an example of what it might look like:
 ```bash
 rust-find 0.1.0
